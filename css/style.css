@@ -184,8 +184,8 @@
   position: absolute;
   transform: translate(-50%, -50%);
 }
-.custom-card:hover  {
-    cursor: pointer;
+.custom-card:hover {
+  cursor: pointer;
   -webkit-text-fill-color: #0d6efd;
 }
 /* categories style end  */
@@ -219,7 +219,8 @@
   font-size: 28px;
   line-height: 33px;
 }
-.package-text, .package-list li span {
+.package-text,
+.package-list li span {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -241,14 +242,18 @@
   background: #3f87f5;
   box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 }
-.package-active > .package-price, .package-active > .package-type, .package-active > .package-text, .package-active > .package-list li i, .package-active > .package-list li span {
-    color: #fff;
+.package-active > .package-price,
+.package-active > .package-type,
+.package-active > .package-text,
+.package-active > .package-list li i,
+.package-active > .package-list li span {
+  color: #fff;
 }
 .package-active > .package-btn {
-    background: #FFFFFF;
+  background: #ffffff;
 }
 .package-btn:hover {
-    background: #FFFFFF;
+  background: #ffffff;
 }
 .package-btn span {
   color: #3f87f5;
@@ -257,13 +262,30 @@
   background-color: #3f87f5;
   cursor: pointer;
 }
-.pricing-box-all:hover > .package-price, .pricing-box-all:hover > .package-type, .pricing-box-all:hover > .package-text, .pricing-box-all:hover > .package-list li i, .pricing-box-all:hover > .package-list li span {
-    color: #fff;
+.pricing-box-all:hover > .package-price,
+.pricing-box-all:hover > .package-type,
+.pricing-box-all:hover > .package-text,
+.pricing-box-all:hover > .package-list li i,
+.pricing-box-all:hover > .package-list li span {
+  color: #fff;
 }
 .pricing-box-all:hover > .package-btn {
-    background: #FFFFFF;
+  background: #ffffff;
 }
 .badge-hot {
   bottom: 90px;
 }
 /* pricing style end */
+
+.faqText {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 50px;
+  color: #0d0925;
+}
+@media (max-width: 575.98px) {
+.faqText {
+  font-size: 19px;
+}
+}
