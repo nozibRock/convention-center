@@ -285,7 +285,23 @@
   color: #0d0925;
 }
 @media (max-width: 575.98px) {
-.faqText {
-  font-size: 19px;
+  .faqText {
+    font-size: 19px;
+  }
 }
+
+.footer-main {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+  color: #d9dbe1;
+}
+.copyright span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.app-footer h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
 }
