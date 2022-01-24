@@ -17,7 +17,7 @@
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -35,17 +35,17 @@
                     <span class="toggler-icon bottom-bar"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0 ">
-                        <li class="nav-item">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 custom_navbar-nav">
+                        <li class="nav-item custom_nav-item">
                             <a class="nav-link active custom_nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item custom_nav-item">
                             <a class="nav-link custom_nav-link" href="#about_us">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item custom_nav-item">
                             <a class="nav-link custom_nav-link" href="#contact">Contact</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item custom_nav-item">
                             <a class="nav-link custom_nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
@@ -54,7 +54,84 @@
         </nav>
         <!-- navbar end -->
 
-        
+        <!-- slider start -->
+        <section id="cusCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#cusCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#cusCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#cusCarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#cusCarousel" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active bg-dark">
+                    <img src="images/slider_1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption ">
+                        <h5 class="carousel-title">The perfect venue for your next event</h5>
+                        <p class="lead mt-5 mb-5 w-75 carousel-text mx-auto">Marriage is defined as the union of two separate souls, each with their own fates and destinies, bound together by the everlasting secrets of life. the everlasting soul; wishing for their union Minds and hearts Wedding event and decor sources is a corporation that specializes in event management.</p>
+                        <a href="https://www.shaadisaga.com/" target="_blank">
+                            <button class="btn btn-light text-primary py-2 px-4 carousel-btn">Book Now</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item bg-dark">
+                    <img src="images/slider_2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousel-title">The place is your dreaming for make a great
+                            Honeymoon</h5>
+                        <p class="lead mt-5 mb-5 w-75 carousel-text mx-auto">A honeymoon is a vacation taken by newlyweds
+                            immediately after their wedding, to celebrate
+                            their marriage. Today, honeymoons are often
+                            celebrated in destinations considered exotic or
+                            romantic.</p>
+                        <a href="https://www.shaadisaga.com/" target="_blank">
+                            <button class="btn btn-light text-primary py-2 px-4 carousel-btn">Book Now</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item bg-dark">
+                    <img src="images/slider_3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousel-title">The place a great for enjoying Birthday</h5>
+                        <p class="lead mt-5 mb-5 w-75 carousel-text mx-auto">A birthday is the anniversary of the birth of a
+                            person, or figuratively of an institution.
+                            Birthdays of people are celebrated in numerous
+                            cultures, often with birthday gifts, birthday
+                            cards, a birthday party, or a rite of passage.</p>
+                        <a href="https://www.shaadisaga.com/" target="_blank">
+                            <button class="btn btn-light text-primary py-2 px-4 carousel-btn">Book Now</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item bg-dark">
+                    <img src="images/slider_4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carousel-title">Trusted Wedding Services
+                        for every Bangladeshi Wedding</h5>
+                        <p class="lead mt-5 mb-5 w-75 carousel-text mx-auto">Source wedding Event and decor is a Expertise company in Event Management across the globe people who have brought you
+                        events like Wedding, Engagements, Reception, Anniversaries, Birthday Party, Christmas Party, Corporate, and Cultural
+                        Events.</p>
+                        <a href="https://www.shaadisaga.com/" target="_blank">
+                            <button class="btn btn-light text-primary py-2 px-4 carousel-btn">Book Now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#cusCarousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cusCarousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+        <!-- slider end -->
     </header>
 
     <!-- bootstrap js bundle -->
