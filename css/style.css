@@ -152,14 +152,20 @@
   }
 }
 .bg-dark {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   overflow: hidden;
 }
 #cusCarousel .carousel-inner .bg-dark img {
   object-fit: cover;
   opacity: 0.4;
 }
+
+@media (max-width: 575.98px) {
+}
+
+/* slider style end */
+
+/* categories style start */
 .custom-card {
   box-shadow: 1px 2px 6px 0 rgb(0 0 0 / 16%);
   transition: 0.5s all ease-in-out;
@@ -172,17 +178,92 @@
   border: 0.5px solid #ebebeb;
   background-color: #efe3e5;
 }
-.custom-card:hover > .image img {
+.custom-card > .image img {
   top: 50%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  background: linear-gradient(90deg, #fa4a6f, #594454);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
+.custom-card:hover  {
+    cursor: pointer;
+  -webkit-text-fill-color: #0d6efd;
+}
+/* categories style end  */
 
+/* pricing style start */
+.package-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  color: #0a0826;
+}
 @media (max-width: 575.98px) {
+  .package-title {
+    font-size: 19px;
+    line-height: 28px;
+  }
+}
+.package-price,
+.package-type {
+  font-family: "Roboto", sans-serif;
+  color: #231d4f;
 }
 
-/* slider style end */
+.package-price {
+  font-size: 36px;
+  line-height: 46px;
+}
+.package-type {
+  font-size: 28px;
+  line-height: 33px;
+}
+.package-text, .package-list li span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #848199;
+}
+.package-text li i {
+  font-size: 20px;
+  color: #5243c2;
+  background-color: rgba(82, 67, 194, 10.37%);
+}
+.package-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  background: #f496d1;
+}
+.package-active {
+  background: #3f87f5;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+.package-active > .package-price, .package-active > .package-type, .package-active > .package-text, .package-active > .package-list li i, .package-active > .package-list li span {
+    color: #fff;
+}
+.package-active > .package-btn {
+    background: #FFFFFF;
+}
+.package-btn:hover {
+    background: #FFFFFF;
+}
+.package-btn span {
+  color: #3f87f5;
+}
+.pricing-box-all:hover {
+  background-color: #3f87f5;
+  cursor: pointer;
+}
+.pricing-box-all:hover > .package-price, .pricing-box-all:hover > .package-type, .pricing-box-all:hover > .package-text, .pricing-box-all:hover > .package-list li i, .pricing-box-all:hover > .package-list li span {
+    color: #fff;
+}
+.pricing-box-all:hover > .package-btn {
+    background: #FFFFFF;
+}
+.badge-hot {
+  bottom: 90px;
+}
+/* pricing style end */
